@@ -1,0 +1,10 @@
+nameOverride: helm-demo
+
+ingress:
+  enabled: true
+  host: helm.demo.com
+
+image:
+  repository: nginx
+  tag: 1.14.2
+  pullPolicy: Always
